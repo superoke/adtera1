@@ -1,0 +1,37 @@
+<html>
+	<head></head>
+  <body>
+	  ..
+    <script type='text/javascript'>
+//<![CDATA[
+//hmvdisney direct link	    
+var domen    ="https://www.effectivegatetocontent.com/bmk13zq10y?key=a7ab013e44ddfc90dfabeafa7bb13362";
+
+var url 	 = getQueryVariable('url');
+var urlnya   = decodeURIComponent(url);
+
+function getQueryVariable(variable)
+{
+   var query = window.location.search.substring(1);
+   var vars  = query.split("&");
+   for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false); 
+}
+function Redirect(a,b) {
+   // window.location.href = a + '?url=' + b;
+	window.location.replace(a + '?url=' + b);
+}
+
+  if(urlnya){
+	//window.location = domen + '/?url=' + url;
+	setTimeout(Redirect(domen,url), 0);
+  }
+
+
+//]]>
+</script>
+  </body>
+</html>
